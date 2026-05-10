@@ -1,0 +1,209 @@
+// Define SCSS variables. Copied from theme _variables.scss.
+$desktop-width: calc(1200px + 25px + 25px);
+$min-desktop: 1000px;
+$mobile-max: 999px;
+
+.page-home .content {
+    // Margins are bigger on home.
+    p {
+        // Body copy: Open Sans Regular 8pt/11pt leading — brand guide p.14
+        font-family: var(--rounded-font-family);
+        font-weight: 400;
+        margin-block-start: 30px;
+        margin-block-end: 30px;
+    }
+
+    .button {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    // Accent text using the darkest "Open Blue" shade — brand guide p.15
+    .darker {
+        color: var(--primary-700);
+    }
+
+    .subhero {
+        // Open Sans body font — brand guide p.13
+        font-family: var(--rounded-font-family);
+        color: var(--text-color);
+        font-size: 20px;
+        max-width: 465px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.8px;
+        text-transform: none;
+        // Left border uses "Open Blue" mid-tint — brand guide blue shade palette p.15
+        border-left: 6px solid var(--primary-400);
+        padding-left: 20px;
+        margin-block-end: 50px;
+        @media (min-width: $min-desktop) {
+            margin-block-end: 60px;
+        }
+    }
+
+    .hero-grid {
+        margin-top: 0;
+        margin-bottom: 0;
+        row-gap: 50px;
+
+        h1 {
+            // Big headline: Lato Bold 34pt/30pt leading — brand guide p.14
+            font-family: var(--condensed-font-family);
+            font-weight: 700;
+            // Brand guide uses uppercase logotype style — brand guide p.7
+            text-transform: uppercase;
+            // "Open Blue" primary for headline impact — brand guide p.15
+            color: var(--primary-400);
+
+            @media (min-width: $min-desktop) and (max-width: $desktop-width) {
+                font-size: 75px;
+            }
+            @media (min-width: $min-desktop) {
+                margin-block-end: 60px;
+            }
+        }
+
+        h2 {
+            // Sub-heading: Lato Bold Regular 16pt/16pt — brand guide p.14
+            font-family: var(--condensed-font-family);
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 16px;
+            color: var(--black);
+        }
+
+        &__col1 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 9;
+            }
+            @media (min-width: 1000px) {
+                grid-column: span 7;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: span 6;
+            }
+        }
+        &__col2 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 9;
+            }
+            @media (min-width: 1000px) {
+                align-self: center;
+                grid-column: 8 / -1;
+                padding-bottom: 42px;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: 7 / -1;
+            }
+        }
+
+        .button {
+            margin-bottom: 50px;
+            // CTA button: solid "Open Blue" fill — brand guide p.15
+            background-color: var(--primary-400);
+            color: var(--white);
+            font-family: var(--condensed-font-family);
+            font-weight: 700;
+            text-transform: uppercase;
+            border: none;
+
+            &:hover,
+            &:focus {
+                background-color: var(--primary-600);
+            }
+
+            @media (min-width: $min-desktop) {
+                margin-bottom: 100px;
+            }
+        }
+
+        .shortened-width {
+            @media (min-width: $min-desktop) {
+                max-width: 90%;
+            }
+        }
+    }
+
+    .box-grid {
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 100px;
+
+        // Card/box accent: light blue tint background — brand guide p.15 (#d4eeff shade)
+        .box {
+            background-color: var(--primary-100);
+            border-top: 3px solid var(--primary-400);
+
+            h3 {
+                // Lato Bold copy text — brand guide p.14
+                font-family: var(--condensed-font-family);
+                font-weight: 700;
+                color: var(--black);
+            }
+
+            p {
+                // Open Sans caption — brand guide p.14
+                font-family: var(--rounded-font-family);
+                font-size: 14px;
+                color: var(--gray-700);
+            }
+        }
+    }
+
+    .landscape-grid {
+        margin-top: 80px;
+        margin-bottom: 100px;
+        @media (min-width: 600px) {
+            gap: 50px;
+        }
+        &__col1 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 5;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: span 4;
+                padding-right: 50px;
+            }
+        }
+        &__col2 {
+            grid-column: span 12;
+            @media (min-width: 600px) {
+                grid-column: span 7;
+                align-self: flex-start;
+            }
+            @media (min-width: $desktop-width) {
+                grid-column: 5 / -1;
+            }
+        }
+    }
+
+    .floating-effect {
+        box-shadow: none;
+        position: relative;
+        display: block;
+        padding-bottom: 40px;
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 10px;
+            bottom: 60px;
+            background-color: transparent;
+            border-radius: 100px/50px;
+            // Shadow using "Black Carry" dark tone — brand guide p.15
+            box-shadow: 0 35px 30px rgba(51, 51, 51, 0.4);
+        }
+    }
+
+    .rounded-corners {
+        border-radius: 10px;
+    }
+}

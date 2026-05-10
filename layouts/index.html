@@ -1,0 +1,67 @@
+{{ define "main" }}
+  <div class="columns hero-grid" style='background: url("/img/banner-background.318a2ab0.svg") bottom center no-repeat;'>
+    <div class="hero-grid__col1">
+      <h1 class="title">
+        {{ i18n "hero1" }}<br /><span class="darker">{{ i18n "hero2" }}</span>
+      </h1>
+
+      <h2 class="subhero">{{ i18n "subhero" }}</h2>
+
+      <p class="shortened-width">{{ i18n "explainerText" | markdownify }}</p>
+
+      <a href="{{ relLangURL "/about/about-us" }}" class="button">{{ i18n "explainerButton" }}</a>
+    </div>
+
+    <div class="hero-grid__col2">
+      <img
+        width="585"
+        height="530"
+        src="{{ "img/developer.903ee222.svg" | relURL }}"
+        alt="People collaborating"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+  </div>
+
+  <h3 class="h4">{{ i18n "sectionTitle" | markdownify }}</h3>
+
+  <div class="cards columns-3 box-grid">
+    <div class="card">
+      <h2>{{ i18n "sectionTitle1" }}</h2>
+      <p>{{ i18n "sectionText1" | markdownify }}</p>
+      <a href="{{ relLangURL "/community/" }}" class="button">{{ i18n "sectionButton1" }}</a>
+    </div>
+
+    <div class="card">
+      <h2>{{ i18n "sectionTitle2" }}</h2>
+      <p>{{ i18n "sectionText2" | markdownify }}</p>
+      <a href="{{ relLangURL "/about/associates/" }}" class="button"
+        >{{ i18n "sectionButton2" }}</a
+      >
+    </div>
+
+    <div class="card">
+      <h2>{{ i18n "sectionTitle3" }}</h2>
+      <p>{{ i18n "sectionText3" | markdownify }}</p>
+      <a href="{{ relLangURL "/about/sponsors/" }}" class="button">{{ i18n "sectionButton3" }}</a>
+    </div>
+  </div>
+
+  <h3 class="h4">{{ i18n "sectionMembers" | markdownify }}</h3>
+
+  <div style="display: grid; place-items: center;">
+    <h2>{{ i18n "sectionMemberSponsors" }}</h2>
+    <object type="image/svg+xml" data="https://opencollective.com/osscameroon/sponsors.svg?avatarHeight=72&width=600&button=false&format=png"></object>
+
+    <h2>{{ i18n "sectionMemberIndividuals" }}</h2>
+    <object type="image/svg+xml" data="https://opencollective.com/osscameroon/backers.svg?avatarHeight=48&width=600&button=false&format=png"></object>
+
+    <h2>{{ i18n "sectionMemberAssociates" }}</h2>
+    <div style="width: 600px;">
+    {{ range .Site.Data.associates }}
+      <a href="{{ .website }}"><img width="32" alt="{{ .name }}" src="{{ .logo }}"/></a>
+    {{ end }}
+    </div>
+  </div>
+{{ end }}

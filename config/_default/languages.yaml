@@ -1,0 +1,143 @@
+en:
+  languageName: English
+  weight: 1
+  ### copyright (markdown can be used) ###
+  copyright: "Copyright &copy; {{< current_year >}} OSS Cameroon. All rights reserved. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) by [CNCF](https://www.cncf.io)."
+  title: "OSS Cameroon // Building Cameroon one open source at a time."
+  params:
+    description: "Our country is developing, and has a strong need for skills in the tech industry. We want to encourage young people to
+choose this field so we can grow our tech ecosystem and popularise the tech culture across the country. Through this
+initiative, We want to promote the talent and know-how of Cameroonians by using our technicals skill to bring solutions to
+problems found in our society using open source software."
+    ### accessibility ###
+    accessibility:
+      skip_text: "Skip to content"
+      help_text: ""
+      help_url: ""
+    ### calls to action ###
+    main_cta:
+      text: "Join"
+      link: "/join/"
+    footer_cta:
+      text: "Join OSS Cameroon"
+      link: "/join/"
+    github_edit: "Edit this page on GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 1
+    - identifier: "about-us"
+      name: "About Us"
+      url: "/about/about-us/"
+      weight: 1
+      post: "The mission of the project and the community"
+      parent: "about"
+    - identifier: "individuals"
+      name: "Individuals"
+      url: "/about/individuals/"
+      weight: 2
+      post: "For developers and tech enthusiasts who want to back OSS Cameroon personally."
+      parent: "about"
+    - identifier: "associates"
+      name: "Associates"
+      url: "/about/associates/"
+      weight: 3
+      post: "Projects, communities & foundations supporting OSS Cameroon"
+      parent: "about"
+    - identifier: "ponsors"
+      name: "Sponsors"
+      url: "/about/sponsors/"
+      weight: 4
+      post: "The orgnizations supporting OSS Cameroon worldwide"
+      parent: "about"
+    - identifier: "code-of-conduct"
+      name: "Code of Conduct"
+      url: "/about/code-of-conduct/"
+      weight: 5
+      post: "Values that make OSS Cameroon a welcoming and safe community"
+      parent: "about"
+    - identifier: "projects"
+      name: "Projects"
+      url: "/projects/"
+      weight: 2
+    - identifier: "community"
+      name: "Community"
+      url: "/community/"
+      weight: 3
+    - identifier: "blog"
+      name: "Blog"
+      url: "https://blog.osscameroon.com"
+      weight: 4
+fr:
+  languageName: Français
+  contentDir: content/fr
+  weight: 2
+  params:
+    copyright: "Copyright &copy; {{< current_year >}} OSS Cameroon. Tous droits réservés. [Dot Org Theme](https://github.com/cncf/dot-org-hugo-theme) par [CNCF](https://www.cncf.io)."
+    title: "OSS Cameroon // Construire le Cameroun, un projet open source à la fois."
+    description: "Notre pays est en développement et a un fort besoin de compétences dans l’industrie technologique. Nous voulons encourager les jeunes à choisir ce domaine afin de développer notre écosystème technologique et de populariser la culture du numérique à travers tout le pays. À travers cette initiative, nous souhaitons promouvoir le talent et le savoir-faire des Camerounais en utilisant nos compétences techniques pour apporter des solutions aux problèmes rencontrés dans notre société grâce aux logiciels open source."
+    ### accessibility ###
+    accessibility:
+      skip_text: "Aller au contenu"
+      help_text: ""
+      help_url: ""
+    ### calls to action ###
+    main_cta:
+      text: "Rejoindre"
+      link: "/join/"
+    footer_cta:
+      text: "Rejoindre OSS Cameroon"
+      link: "/join/"
+    github_edit: "Modifier cette page sur GitHub"
+  ### example menu showing children ###
+  menu:
+    main:
+    - identifier: "about"
+      name: "À propos"
+      url: "/about/"
+      weight: 1
+    - identifier: "about-us"
+      name: "Notre vision"
+      url: "/about/about-us/"
+      weight: 1
+      post: "La vision de OSS Cameroon et son engagement pour la communauté"
+      parent: "about"
+    - identifier: "individuals"
+      name: "Individuals"
+      url: "/about/individuals/"
+      weight: 2
+      post: "Pour les développeurs et passionnés de technologie qui souhaitent soutenir OSS Cameroon à titre personnel."
+      parent: "about"
+    - identifier: "associates"
+      name: "Partenaires"
+      url: "/about/associates/"
+      weight: 3
+      post: "Projets, communautés et fondations qui collaborent avec OSS Cameroon"
+      parent: "about"
+    - identifier: "sponsors"
+      name: "Sponsors"
+      url: "/about/sponsors/"
+      weight: 4
+      post: "Les organisations qui soutiennent OSS Cameroon à travers le monde"
+      parent: "about"
+    - identifier: "code-of-conduct"
+      name: "Code de conduite"
+      url: "/about/code-of-conduct/"
+      weight: 5
+      post: "Des valeurs qui font d’OSS Cameroon une communauté accueillante et sûre."
+      parent: "about"
+    - identifier: "projects"
+      name: "Projets"
+      url: "/projects/"
+      weight: 2
+    - identifier: "community"
+      name: "Communauté"
+      url: "/community/"
+      weight: 3
+    - identifier: "blog"
+      name: "Blog"
+      url: "/blog/"
+      weight: 4

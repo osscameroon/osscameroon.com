@@ -1,0 +1,9 @@
+# associate members data, the key is github organzation name.
+laravelcm:
+  name: Laravel Cameroon
+  website: https://laravel.cm
+  logo: https://laravel.cm/images/favicons/favicon-32x32.png
+fodydev:
+  name: FodyDev
+  website: https://fodydev.org
+  logo: https://fodydev.org/favicon-32x32.png

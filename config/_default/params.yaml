@@ -1,0 +1,41 @@
+######################## custom scripts & styles ####################
+
+# Add custom assets relative to /static or via https
+logo_on_white: "/img/osscameroon-logo-on-white.png"
+logo_on_black: "/img/osscameroon-logo-white-on-transparant.png"
+custom_js: []
+custom_css: []
+
+######################## custom config ####################
+
+### default social share image (can also be set per lang) ###
+images: ["/img/social-share.png"]
+
+github:
+  repo_url: "https://github.com/osscameroon/osscameroon.com/blob/main"
+  show_edit_link: true
+
+social_links:
+  devstats: ""
+  discord: ""
+  facebook: ""
+  flickr: ""
+  github: "https://github.com/osscameroon"
+  instagram: ""
+  landscape: ""
+  linkedin: "https://www.linkedin.com/company/osscameroon/"
+  mastodon: ""
+  pinterest: ""
+  rss: ""
+  slack: ""
+  stackoverflow: ""
+  threads: ""
+  twitter: ""
+  x: "https://x.com/osscameroon"
+  youtube: ""
+  telegram: "https://t.me/joinchat/UpKZh_T3W02LsGvQ"
+
+# Makes the header sticky on tall screens
+sticky_header: true
+# Enable search in header UI
+show_search: true

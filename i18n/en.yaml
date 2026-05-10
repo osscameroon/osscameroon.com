@@ -1,0 +1,38 @@
+hero1:
+  other: Open Source
+hero2:
+  other: Society Cameroon
+subhero:
+  other: An open source society driven by Cameroonian developers, building solutions for Africa one commit at a time.
+explainerText:
+  other: ""
+explainerButton:
+  other: About us
+sectionTitle:
+  other: Get Involved
+sectionTitle1:
+  other: Join our community
+sectionText1:
+  other: We need developers, designers, and dreamers. If you believe Africa's problems deserve African-built solutions — we need you on this team.  
+sectionButton1:
+  other: Join Community
+sectionTitle2:
+  other: Become an Associate
+sectionText2:
+  other: Join forces with OSS Cameroon and help grow Africa’s open source ecosystem through collaboration, mentorship, and shared impact.
+sectionButton2:
+  other: Get Involved
+sectionTitle3:
+  other: Become a Sponsor
+sectionText3:
+  other: Support the next generation of Cameroonian developers and gain visibility while investing in sustainable open source innovation.
+sectionButton3:
+  other: Sponsor Us
+sectionMembers:
+  other: Members
+sectionMemberSponsors:
+  other: Sponsors
+sectionMemberIndividuals:
+  other: Individuals
+sectionMemberAssociates:
+  other: Associates

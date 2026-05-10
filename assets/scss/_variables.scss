@@ -1,0 +1,66 @@
+// Define CSS variables
+:root {
+  // ─── Typography ────────────────────────────────────────────────────────────
+  // Primary font: Lato (headings, logotype) — brand guide p.6, p.12
+  --condensed-font-family: "Lato", "Impact", "Arial Black", sans-serif, -apple-system, BlinkMacSystemFont, Roboto,
+    Ubuntu;
+  // Secondary font: Open Sans (body text) — brand guide p.13
+  --rounded-font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif,
+    Roboto, Ubuntu, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+  // ─── Base colors ───────────────────────────────────────────────────────────
+  --text-color: var(--black);
+  // "Black Carry" — RGB 51 51 51 — brand guide p.15
+  --black: #333333;
+  --white: #ffffff;
+
+  // ─── Link & menu colors ────────────────────────────────────────────────────
+  --link-color: var(--primary-600);
+  --menu-link-color: var(--black);
+  --menu-link-color-hover: var(--gray-800);
+  --footer-link-color: var(--white);
+  // Footer hover uses a light blue tint — brand guide blue shade palette p.15
+  --footer-link-color-hover: var(--primary-400);
+
+  // ─── Layout ────────────────────────────────────────────────────────────────
+  --gutter: 25px;
+  --container-width: 1200px;
+  --content-width: 895px;
+
+  // ─── Primary color scale — "Open Blue" #0090F0 ─────────────────────────────
+  // Derived from the blue shade palette on brand guide p.15:
+  // #d4eeff  #80ccff  #2aaaff  #0090F0  #007fd4  #004c80  #00192a
+  --primary-100: #d4eeff; // lightest tint
+  --primary-200: #80ccff; // light tint
+  --primary-300: #2aaaff; // mid tint
+  --primary-400: #0090f0; // "Open Blue" — core brand color
+  --primary-500: #0090f0; // same core (replaces old 500)
+  --primary-600: #007fd4; // one step darker
+  --primary-700: #004c80; // dark shade
+  --primary-800: #00192a; // darkest shade
+
+  // ─── Gray scale — derived from "Black Carry" shade palette p.15 ────────────
+  // #eaeaea  #bfbfbf  #959595  #6a6a6a  #404040  #151515
+  --gray-200: #eaeaea;
+  --gray-300: #bfbfbf;
+  --gray-400: #959595;
+  --gray-600: #6a6a6a;
+  --gray-700: #404040;
+  --gray-800: #151515;
+
+  // ─── Secondary / accent colors — brand guide p.16 (<10 % usage) ────────────
+  --secondary-green:  #4fa758;
+  --secondary-yellow: #d4cf47;
+  --secondary-sky:    #a0d9e6;
+  --secondary-purple: #ab82cb;
+  --secondary-peach:  #d99a7c;
+
+  // ─── Pagefind (search UI) ──────────────────────────────────────────────────
+  --pagefind-ui-text: var(--text-color) !important;
+  --pagefind-ui-font: var(--rounded-font-family) !important;
+}
+
+// ─── SCSS variables ──────────────────────────────────────────────────────────
+$desktop-width: calc(1200px + 25px + 25px);
+$min-desktop: 1000px;
+$mobile-max: 999px;

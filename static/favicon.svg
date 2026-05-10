@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="favicon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:serif="http://www.serif.com/">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="512"
+       height="512"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <rect
+     style="fill:#ffffff"
+     id="rect1"
+     width="555.83563"
+     height="520.76715"
+     x="-17.534246"
+     y="-4.3835616" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.35176527,0,0,0.35176527,-18522.909,-5832.8175)"
+       id="g4"
+       style="clip-rule:evenodd;fill-rule:evenodd;stroke-miterlimit:1.5">
+        <g
+   id="White-on-black"
+   serif:id="White on black"
+   transform="matrix(0.637873,0,0,0.425829,47573.4,16695.1)">
+            
+            <g
+   transform="matrix(5.34061,0,0,7.99999,-251615,-135443)"
+   id="g3">
+                <g
+   transform="matrix(0.148909,0,0,0.148909,43146.2,14120.5)"
+   id="g1">
+                    <path
+   d="m 38169.6,19225.7 c 326.8,44.9 578.8,325.5 578.8,664.5 0,370.2 -300.6,670.7 -670.8,670.7 -337.8,0 -617.7,-250.3 -664,-575.4 l 133.6,-134.3 c -1,12.9 -1.4,25.9 -1.4,39 0,293.5 238.3,531.8 531.8,531.8 293.6,0 531.9,-238.3 531.9,-531.8 0,-293.6 -238.3,-531.9 -531.9,-531.9 -14,0 -27.9,0.6 -41.6,1.6 z m -108.4,-6.1 -172.3,173.2 c -142.7,54.3 -256.1,168.2 -309.6,311.2 l -172.3,173.2 c 6.8,-358.8 295.9,-649 654.2,-657.6 z"
+   style="fill:#0090f0"
+   id="path1" />
+
+                </g>
+
+                <g
+   transform="matrix(0.141022,0,0,0.124684,43520.4,16057)"
+   id="g2">
+                    <path
+   d="m 38739.8,8583.83 c -202.5,453.35 -657.4,767.55 -1185.6,767.55 -528.2,0 -983.1,-313.2 -1185.6,-766.55"
+   style="fill:none;stroke:#333333;stroke-width:125px"
+   id="path2" />
+
+                </g>
+
+            </g>
+
+        </g>
+
+    </g>
+  </g>
+</svg>
