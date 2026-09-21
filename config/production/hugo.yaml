@@ -1,6 +1,6 @@
 ######################## production configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL: https://osscameroon.com
+baseURL: https://osscameroon.github.io/osscameroon.com
 # googleAnalytics: 
 enableRobotsTXT: true
 build:
